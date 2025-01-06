@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagabond - Manga</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="parallax"></div>
+    <div class="fade-in"></div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #867171;
+        }
+        header {
+            text-align: center;
+            background-color: #000000;
+            color: rgb(255, 255, 255);  
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgb(198, 175, 175);
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        .recadre {
+            width: 120px; /* Largeur du conteneur */
+            height: 100px; /* Hauteur du conteneur */
+            overflow: hidden; /* Cache le débordement */
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vagabond</h1>
+
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bienvenue dans le site</h1>
+            <p>entrez dans le monde de vagabond.</p>
+        </div>
+    </section>
+    <ul>
+        <li><a href="#personnages">Personnages</a></li>
+            <li><a href="#chapitres">Chapitres</a></li>
+            <li><a href="#galerie">galerie</a></li>
+            <li><a href="#valeurs">les valeurs de l'oeuvre</a></li>
+    </ul>
+</div>
+    <a href="#top" class="back-to-top">Retour en haut</a>
+
+    <section id="intro">
+        <h2>Présentation</h2>
+        <p>
+            Vagabond est un manga japonais écrit et illustré par Takehiko Inoue, basé sur le roman "Musashi" d'Eiji Yoshikawa.
+            Suivez les aventures de Miyamoto Musashi dans sa quête pour devenir un grand samouraï.
+        </p>
+    </section>
+
+    <section id="personnages">
+        <h2>Personnages Principaux</h2>
+        <div class="personnage" onclick="toggleDetails('musashi')">
+            <h3>Miyamoto Musashi</h3>
+            <p>Un maître épéiste et le protagoniste de l'histoire, en quête de la véritable force.</p>
+        </div>
+        <div class="personnage" onclick="toggleDetails('kojiro')">
+            <h3>Kojiro Sasaki</h3>
+            <p>Rival de Musashi qui était autre fois un ami, est un expert en combat à la rapière.</p>
+            <h3>Otsu</h3>
+            <p>Amie d'enfance de Musashi, elle joue un rôle important dans son passé et ses émotions.</p>
+            <h3>Yagyu Seigo</h3>
+            <p>Un maître du sabre qui joue un rôle clé dans l'évolution de Musashi.</p>
+            <h3>Takuan Soho</h3>
+            <p>Un moine zen qui offre des conseils à Musashi et le fait réflechir sur sa prope nature.</p>
+            <p><strong>Il y a de nombreux autres personnages secondaires et figures historiques qui enrichissent l'histoire.</strong></p>
+        </div>
+    </section>
+
+    <section id="chapitres">
+        <h2>Chapitres</h2>
+        <ul>
+            <li>Chapitre 1 - La rencontre</li>
+            <li>Chapitre 2 - L'apprentissage</li>
+            <li>Chapitre 3 - Le duel</li>
+            <li>Chapitre 4 - Le retour</li>
+            <li>Chapitre 5 - Un voyage sans fin</li>
+            <li>Chapitre 6 - L'ombre d'un homme</li>
+            <li>Chapitre 7 - Le chemin du samouraï</li>
+            <li>Chapitre 8 - La promesse</li>
+            <li>Chapitre 9 - L'affrontement</li>
+            <li>Chapitre 10 - La voie du cœur</li>
+            <li>Chapitre 11 - Le chemin de la paix</li>
+            <li>Chapitre 12 - Le vent de l'errance</li>
+            <li>Chapitre 13 - L'héritage</li>
+            <li>Chapitre 14 - les fantômes du passé</li>
+            <li>Chapitre 15 - Le défi</li>
+            <li>Chapitre 16 - La lutte</li>
+            <li>Chapitre 17 - L'ultime affrontement</li>
+            <li>Chapitre 18 - Le maître et l'élève</li>
+            <li>Chapitre 19 - Le crépuscule</li>
+            <li>Chapitre 20 - La légende de Musashi</li>
+            <li>Chapitre 21 - Le cœur d'un guerrier</li>
+            <li>Chapitre 22 - Les chemins se croisent</li>
+            <li>Chapitre 23 - Les blessures du passé</li>
+            <li>Chapitre 24 - La vérité</li>
+            <li>Chapitre 25 - Un nouveau départ</li>
+        </ul>
+    </section>
+</section>
+
+<div id="galerie"></div>
+<div class="gallery">
+    
+    <div class="image-item" data-full="image1_large.jpg">
+        <img src="vagabond_aura.jpg" alt="Image 1">
+    </div>
+    <div class="image-item" data-full="image2_large.jpg">
+        <img src="méditation.jpg" alt="Image 2">
+    </div>
+    <div class="image-item" data-full="image1_large.jpg">
+        <img src="aura2.jpg" alt="Image 3">
+    </div>
+    <div class="image-item" data-full="image1_large.jpg">
+        <img src="décor_rivière2.jpg" alt="Image 4">
+    </div>
+    <div class="image-item" data-full="image1_large.jpg">
+        <img src="méditation2.jpg" alt="Image 1">
+    </div>
+    <div class="image-item" data-full="image1_large.jpg">
+        <img src="miyamoto_pleure.jpg" alt="Image 1">
+    </div>
+
+    <!-- Ajoutez d'autres images ici -->
+</div>
+
+<!-- Modal -->
+<div id="lightbox" class="lightbox">
+    <span class="close" id="closeLightbox">X</span>
+    <img id="lightboxImage" src="" alt="Image">
+</div>
+
+    </section>
+    <section id="valeurs">
+        <h2>"la vrai force"</h2>
+        <p>
+        dans le manga musashi se croit invinsible mais 
+        il comprend au fur et a mesure des épreuves qu'être invincible 
+        n'est qu'une illusion et que personne n'est réellement invinsible.
+        la vraie force vient du faite de mûrir et de grandir avec le temps et les épreuves 
+        parcouru tout au long de notre vie  
+        </p>
+    </section>
+
+
+    
+</section>
+</html>
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-in.fade {
+    opacity: 1;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    background-color: #525253;
+}
+  
+.hero {
+    background-image: url('méditation2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(183, 177, 177);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+#lightboxImage {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
